@@ -1,0 +1,24 @@
+<library path="lib/libvib_touch">
+
+	<class name="vib_touch/VibTouchSensor" type="vib_touch_sensor_ns::VibTouchSensor"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			VibTouchSensorClass.
+		</description>
+	</class>
+		
+	<class name="vib_touch/VibTouchDisplay" type="vib_touch_display_ns::VibTouchDisplay"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			VibTouchDisplayClass.
+		</description>
+	</class>
+	
+	<class name="vib_touch/VibTouchStft" type="vib_touch_stft_ns::VibTouchStft"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			VibTouchStftClass.
+		</description>
+	</class>
+		
+</library>

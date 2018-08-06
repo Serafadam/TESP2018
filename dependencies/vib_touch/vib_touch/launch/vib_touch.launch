@@ -1,0 +1,31 @@
+<launch>
+	<node pkg="nodelet" type="nodelet" args="manager" name="vib_touch_nodelet_manager" output="screen" />
+	
+	<node pkg="nodelet" type="nodelet" args="load vib_touch/VibTouchSensor vib_touch_nodelet_manager"
+	name="VibTouchSensor_loader" output="screen">
+		<param name="input_device_name"  type="string"  value="plughw:1,0"/>
+		<param name="vib_frequency"  type="int"  value="24000"/>
+		<param name="cap_frequency"  type="int"  value="400"/>
+		<param name="num_vib"  type="int"  value="1"/>
+
+		<param name="input_gain"  type="double"  value="1.0"/>
+	</node>
+
+	<node pkg="nodelet" type="nodelet" args="load vib_touch/VibTouchDisplay vib_touch_nodelet_manager"
+    name="VibTouchDisplay_loader" output="screen">
+		<param name="output_device_name"  type="string"  value="plughw:1,0"/>
+		<param name="vib_frequency"  type="int"  value="24000"/>
+		<param name="cap_frequency"  type="int"  value="400"/>
+		<param name="num_vib"  type="int"  value="1"/>
+		
+		<param name="output_gain"  type="double"  value="0.02"/>
+		
+		<param name="carrier_frequency"  type="int"  value="300"/>
+
+		<param name="output_mode"  type="int"  value="0"/>
+		
+		<param name="GUI_gain"  type="double"  value="1.0"/>
+		<param name="AM_gain"  type="double"  value="1.0"/>
+	</node>
+	
+</launch>

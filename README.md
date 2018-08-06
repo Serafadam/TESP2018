@@ -21,7 +21,7 @@ python in the command line to launch the python shell(you can exit then by press
 `
 * To start the `imu_node` separately, type `rosrun tesp2018 imu_node.py`
 * If you want to add additional nodes, see how `imu_node` was made (search the project)
-
+* You should push changes to the develop branch on github.
 ### Useful links
 * http://wiki.ros.org/
 * https://www.learnpython.org/en/

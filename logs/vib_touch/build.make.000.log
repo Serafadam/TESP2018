@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target vib_touch[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/vib_touch.dir/src/vib_touch_sensor.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/vib_touch.dir/src/vib_touch_display.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/olivier/TESP2018/devel/.private/vib_touch/lib/libvib_touch.so[0m
+[100%] Built target vib_touch

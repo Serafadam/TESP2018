@@ -1,0 +1,4 @@
+Symlinking /home/olivier/TESP2018/devel/share/vib_touch/cmake/vib_touchConfig.cmake
+Symlinking /home/olivier/TESP2018/devel/share/vib_touch/cmake/vib_touchConfig-version.cmake
+Symlinking /home/olivier/TESP2018/devel/lib/libvib_touch.so
+Symlinking /home/olivier/TESP2018/devel/lib/pkgconfig/vib_touch.pc

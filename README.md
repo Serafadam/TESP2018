@@ -9,6 +9,7 @@ The main goal of this project is to provide proximity feedback to the user contr
 * Additionally, get turtlebot3 packages by `sudo apt-get install ros-kinetic-turtlebot3` and `sudo apt-get install ros-kinetic-turtlebot3-gazebo`
 * To run this project you also need Python 2, to check for the version just type 
 python in the command line to launch the python shell(you can exit then by pressing ctrl+d)
+* To build the vib_touch packages, the fftw3 library needs to be installed beforehand: `sudo apt-get install libfftw3-dev libfftw3-doc`
 
 ### Project structure & how to run and work with ROS.
 

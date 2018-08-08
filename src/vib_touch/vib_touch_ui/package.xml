@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>vib_touch_ui</name>
+  <version>1.0.0</version>
+  <description>
+    UI package for vib data
+  </description>
+
+  <maintainer email="nagano@rm.is.tohoku.ac.jp">hikaru</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>vib_touch_msgs</build_depend>
+
+  <run_depend>std_msgs</run_depend>
+  <run_depend>vib_touch_msgs</run_depend>
+
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml" />
+  </export>
+</package>

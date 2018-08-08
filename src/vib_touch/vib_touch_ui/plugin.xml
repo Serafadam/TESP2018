@@ -1,0 +1,20 @@
+<library path="scripts">
+  <class name="Spectrogram"
+	 type="spectrum_visualization_vib.spectrogram.SpectrogramPlugin"
+	 base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A vib spectrogram visualizer.
+    </description>
+    <qtgui>
+      <group>
+	      <label>VibTouch</label>
+	      <icon type="theme">folder</icon>
+        <statustip></statustip>
+      </group>
+
+      <label>Vib_spectrogram</label>
+      <icon type="theme">system-help</icon>
+      <statustip></statustip>
+    </qtgui>
+  </class>
+</library>

@@ -33,7 +33,7 @@ class LidarNode(object):
             right_amp  = 0.001
             left_amp = 0.1 / abs(lasers[2])
 
-        if lasers[0] >= 0:
+        if lasers[0] > 0:
             front_amp =0.1 / abs(lasers[0])
             back_amp = 0.001
         if lasers[4]:
